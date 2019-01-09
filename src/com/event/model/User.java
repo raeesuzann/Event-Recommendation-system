@@ -1,0 +1,153 @@
+package com.event.model;
+
+public class User {
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String address;
+	private String faculty;
+	private String semester;
+	private int rollNo;
+	private String dob;
+	private String sex;
+	private String emailAddress;
+	private String password;
+	private String confirmPassword;
+	private int status;
+	
+	public User() {
+		
+	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", address=" + address
+				+ ", faculty=" + faculty + ", semester=" + semester + ", rollNo=" + rollNo + ", dob=" + dob + ", sex="
+				+ sex + ", emailAddress=" + emailAddress + ", password=" + password + ", confirmPassword="
+				+ confirmPassword + ", status=" + status + "]";
+	}
+
+	public User(int id, String firstName, String lastName, String address, String faculty, String semester, int rollNo,
+			String dob, String sex, String emailAddress, String password, String confirmPassword, int status) {
+		
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.address = address;
+		this.faculty = faculty;
+		this.semester = semester;
+		this.rollNo = rollNo;
+		this.dob = dob;
+		this.sex = sex;
+		this.emailAddress = emailAddress;
+		this.password = password;
+		this.confirmPassword = confirmPassword;
+		this.status = status;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getFaculty() {
+		return faculty;
+	}
+
+	public void setFaculty(String faculty) {
+		this.faculty = faculty;
+	}
+
+	public String getSemester() {
+		return semester;
+	}
+
+	public void setSemester(String semester) {
+		this.semester = semester;
+	}
+
+	public int getRollNo() {
+		return rollNo;
+	}
+
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+
+	public String getDob() {
+		return dob;
+	}
+
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getConfirmPassword() {
+		return confirmPassword;
+	}
+
+	public void setConfirmPassword(String confirmPassword) {
+		this.confirmPassword = confirmPassword;
+	}
+
+	public int getStatus() {
+		return status;
+	}
+
+	public void setStatus(int status) {
+		this.status = status;
+	}
+	
+	
+}
